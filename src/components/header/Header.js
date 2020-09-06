@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './Header.scss';
 
 const Header = () => {
   return (
-    <div>
-      header
+    <div className='header-container'>
+      <div className="logo">mylineup</div>
     </div>
   )
 }

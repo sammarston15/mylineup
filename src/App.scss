@@ -1,0 +1,18 @@
+// SASS Variables - Color Palette -- URL for this palette = https://coolors.co/cad2c5-84a98c-52796f-354f52-2f3e46
+$light-grey: #cad2c5;
+$dark-grey: #2f3e46;
+$light-green: #84a98c;
+$middle-green: #52796f;
+$dark-green: #354f52;
+
+
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  background: $dark-grey;
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
